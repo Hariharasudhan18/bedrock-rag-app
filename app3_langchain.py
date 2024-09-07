@@ -36,7 +36,7 @@ session = boto3.Session(
 sts_client = session.client('sts')
 
 response = sts_client.assume_role(
-       RoleArn="arn:aws:iam::891377291349:role/AdminUserRole",
+       RoleArn="arn:aws:iam::1234567890:role/AdminUserRole",
        RoleSessionName="AdminUserRoleSession"
    )
 
